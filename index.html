@@ -1,12 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Gallery</title>
 </head>
+
 <body>
-    <h1>Hello World</h1>
-    <h2>Vasanth</h2>
+    <style>
+        .box {
+            height: 100px;
+            width: 100px;
+            background-image: url("https://picsum.photos/100/100");
+        }
+
+        .one {
+            background-color: black;
+        }
+
+        .two {
+            background-color: yellow;
+        }
+
+        .three {
+            background-color: green;
+        }
+
+        .four {
+            background-color: blue;
+        }
+
+        .mainbox {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+    </style>
+    <div class="mainbox">
+        <div class="box one"></div>
+        <div class="box two"></div>
+        <div class="box three"></div>
+        <div class="box four"></div>
+    </div>
+    <script>
+        console.log("Hello World");
+    </script>
 </body>
+
 </html>
